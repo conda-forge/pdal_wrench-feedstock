@@ -11,6 +11,7 @@ source:
 
 build:
   number: 4
+  skip: True  # [ppc64le]
 
 requirements:
   build:
