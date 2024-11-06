@@ -10,8 +10,7 @@ source:
   sha256: fcb7a7cd5e4a62caeceb2a4d377eee39690ba0948da9c569d133c38fbe8e7113
 
 build:
-  number: 6
-  skip: True  # [ppc64le]
+  number: 7
 
 requirements:
   build:
@@ -22,7 +21,7 @@ requirements:
     - make
   host:
     - libpdal-core
-    - libgdal
+    - libgdal-core
 
 test:
   commands:
