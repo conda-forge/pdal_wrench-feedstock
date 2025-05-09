@@ -89,7 +89,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pdal_wrench-green.svg)](https://anaconda.org/conda-forge/pdal_wrench) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pdal_wrench.svg)](https://anaconda.org/conda-forge/pdal_wrench) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pdal_wrench.svg)](https://anaconda.org/conda-forge/pdal_wrench) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pdal_wrench.svg)](https://anaconda.org/conda-forge/pdal_wrench) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pdal__wrench-green.svg)](https://anaconda.org/conda-forge/pdal_wrench) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pdal_wrench.svg)](https://anaconda.org/conda-forge/pdal_wrench) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pdal_wrench.svg)](https://anaconda.org/conda-forge/pdal_wrench) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pdal_wrench.svg)](https://anaconda.org/conda-forge/pdal_wrench) |
 
 Installing pdal_wrench
 ======================
