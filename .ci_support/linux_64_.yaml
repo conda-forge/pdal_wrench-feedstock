@@ -19,7 +19,7 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:cos7
 libgdal_core:
-- '3.10'
+- '3.11'
 libpdal_core:
 - 2.8.4
 target_platform:
