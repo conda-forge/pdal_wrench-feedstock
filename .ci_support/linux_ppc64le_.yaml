@@ -21,7 +21,7 @@ docker_image:
 libgdal_core:
 - '3.11'
 libpdal_core:
-- 2.8.4
+- '2.9'
 target_platform:
 - linux-ppc64le
 zip_keys:
