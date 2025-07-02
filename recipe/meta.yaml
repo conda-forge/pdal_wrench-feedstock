@@ -1,5 +1,5 @@
 {% set name = "pdal_wrench" %}
-{% set version = "1.2" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/PDAL/wrench/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ec743a5acd39740e9de4bf1b84c7e7012c1ba9f9da11de2082cc10a357007040
+  sha256: af03e39946b783011cd76ec59f0aeb51a7a41972e51b3827d2003b283d15a535
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
