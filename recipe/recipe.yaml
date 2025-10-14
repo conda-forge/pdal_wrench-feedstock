@@ -1,0 +1,46 @@
+schema_version: 1
+
+context:
+  name: pdal_wrench
+  version: 1.2.2
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://github.com/PDAL/wrench/archive/refs/tags/v${{ version }}.tar.gz
+  sha256: ebc183bbee61a8b0f4412e056308f759b5af83b5cbfa71fe79a195bb39ad8900
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - ${{ compiler('c') }}
+    - ${{ stdlib("c") }}
+    - ${{ compiler('cxx') }}
+    - cmake
+    - make
+  host:
+    - libpdal-core
+    - libgdal-core
+
+tests:
+  - script:
+      - pdal_wrench info https://s3.amazonaws.com/hobu-lidar/autzen-classified.copc.laz
+
+about:
+  summary: PDAL workflows for processing data
+  description: |
+    A collection of utilities and workflows for processing point cloud
+    data with PDAL
+  license: GPL-3.0-or-later
+  license_file: LICENSE.txt
+  homepage: https://github.com/PDAL/wrench
+  repository: https://github.com/PDAL/wrench
+  documentation: https://github.com/PDAL/wrench
+
+extra:
+  recipe-maintainers:
+    - hobu

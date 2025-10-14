@@ -16,7 +16,6 @@ Documentation: https://github.com/PDAL/wrench
 A collection of utilities and workflows for processing point cloud
 data with PDAL
 
-
 Current build status
 ====================
 
