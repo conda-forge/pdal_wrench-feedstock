@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pdal_wrench
-  version: 1.2.2
+  version: "1.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/PDAL/wrench/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ebc183bbee61a8b0f4412e056308f759b5af83b5cbfa71fe79a195bb39ad8900
+  sha256: 520538b88a3e24277e81053a52a2b74b217933f8a8a1a151622dd3d97b562cff
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
