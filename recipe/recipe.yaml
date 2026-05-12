@@ -25,7 +25,7 @@ requirements:
   host:
     - libpdal-core
     - libgdal-core
-    - laszip
+    - libzip
 
 tests:
   - script:
