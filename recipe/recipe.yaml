@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pdal_wrench
-  version: "1.4.0"
+  version: "1.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/PDAL/wrench/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 48a425c5b7b6a9c3862a109c70788c39ce003101bbf1aaf3cb30461cc46f2b9d
+  sha256: 3e05f918622b8fcfd87ed569a8da2d01484b9f97e90839a381479c340d19631b
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
@@ -25,6 +25,7 @@ requirements:
   host:
     - libpdal-core
     - libgdal-core
+    - libzip
 
 tests:
   - script:
